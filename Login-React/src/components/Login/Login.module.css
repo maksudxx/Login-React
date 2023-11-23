@@ -1,0 +1,117 @@
+.containerLogin {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.titleLogin {
+  color: #5c9cff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pagraphOneLogin {
+  width: 40%;
+  text-align: justify;
+  color: #dcdcdc;
+  margin: 30px 0 60px 0;
+  font-size: 0.8rem;
+}
+.containerInputs {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 400px;
+  height: 35px;
+  margin-bottom: 20px;
+  border-left: 7px solid #5c9cff;
+  background-color: #f5f5f5;
+}
+
+input::placeholder {
+  color: #a3a3a3;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.containerCheckbox {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  color: #a3a3a3;
+}
+.containerCheckbox div {
+  display: flex;
+}
+.containerCheckbox div p {
+  margin-left: 10px;
+}
+
+.newUser {
+  color: #5c9cff;
+  font-weight: bold;
+}
+
+.newUser:hover {
+  color: #a3a3a3;
+  cursor: pointer;
+}
+
+.btnLogin{
+    height: 40px;
+    border-radius: 30px;
+    background:#5c9cff;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 2px solid #a3a3a3;
+}
+
+.btnLogin:hover {
+    cursor: pointer;
+    color: #5c9cff;
+    background: #fff;
+    border: 2px solid #5c9cff;
+}
+
+@media only screen and (max-width: 767px) {
+  .containerLogin{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .input{
+    width: 100%;
+  }
+  .containerInputs{
+    width: 70%;
+  }
+  .containerCheckbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerCheckbox div{
+   margin-bottom: 10px;
+  }
+  .btnLogin{
+    margin:0
+  }
+}
+
+/* Estilos para tablets (768px a 991px de ancho) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pagraphOneLogin {
+    width: 70%;
+    margin: 30px
+  }
+  .input{
+    width: 100%;
+  }
+ 
+}

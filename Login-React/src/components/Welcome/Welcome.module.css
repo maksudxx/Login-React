@@ -1,0 +1,66 @@
+
+.containerWelcome {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  background: url("../../assets/background-welcome-login.svg");
+  height: 100vh;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60%;
+}
+.pagraphOne{
+    font-size: 1em;
+    margin: 0;
+}
+.pagraphTwo{
+    width: 60%;
+    margin:0
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px 0
+}
+
+.imageLogo{
+  width: 200px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  margin-bottom: 50px;
+}
+.btnLogin{
+  display: none;
+}
+@media only screen and (max-width: 767px)  {
+  .containerWelcome{
+    width: 100vw;
+    font-size: 1em;
+  }
+  .pagraphTwo{
+    width: 70%;
+  }
+  h1{
+    font-size: 3em;
+    width: 95%;
+    text-align: center;
+  }
+
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pagraphTwo{
+    width: 90%;
+  }
+}
